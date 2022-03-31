@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BioStatistisc</title>
+    <style>
+        table {
+          width: 80%;
+          font-size: 1.5rem;
+        }
+
+        td {
+          text-align: center;
+          border-bottom: 1px solid black;
+        }
+
+        .sum-row {
+          background: red;
+          color: white;
+        } 
+
+        .calculated-results {
+          text-transform: capitalize;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <input type="text" />
+      <button class="generate">Generate</button>
+
+      <table class="result-table">
+        <tr>
+          <th>x</th>
+          <th>x-x¯</th>
+          <th>(x-x¯)^2</th>
+        </tr>
+      </table>
+
+      <div class="calculated-results"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
