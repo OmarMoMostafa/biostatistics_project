@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "homepage": "https://omarmomostafa.github/biostatistics_project/",
+  "homepage": "https://omarmomostafa.github.io/biostatistics_project/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d ../biostats"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Omar Mohamed",
   "license": "ISC"
